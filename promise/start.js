@@ -1,6 +1,6 @@
 const Promise = require('./promise')
 
-const p = new Promise((resolve) => {
+const p = new Promise((resolve, aaa) => {
     resolve('aaa')
 })
 
