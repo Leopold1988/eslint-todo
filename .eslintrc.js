@@ -6,7 +6,6 @@ module.exports = {
     },
     "extends": [
         "eslint:recommended",
-        "eslint-config-standard",
         "plugin:vue/essential"
     ],
     "globals": {

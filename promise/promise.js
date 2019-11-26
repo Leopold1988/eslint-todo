@@ -1,7 +1,7 @@
-class Promise{
-    constructor(executor){
-        executor();
-    }
+class Promise {
+  constructor (executor) {
+    executor()
+  }
 }
 
-module.exports = Promise;
+module.exports = Promise
