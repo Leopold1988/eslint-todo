@@ -1,13 +1,9 @@
 module.exports = {
     "env": {
         "browser": true,
-        "es6": true,
-        "node": true
+        "es6": true
     },
-    "extends": [
-        "eslint:recommended",
-        "eslint-config-standard",
-    ],
+    "extends": "standard",
     "globals": {
         "Atomics": "readonly",
         "SharedArrayBuffer": "readonly"
