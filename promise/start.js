@@ -1,6 +1,6 @@
 const Promise = require('./promise')
 const p = new Promise((resolve, reject) => {
-  resolve('aaa')
+  resolve('aaa');
 })
 
 p.then((data) => {
