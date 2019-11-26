@@ -2,7 +2,7 @@ module.exports = {
     "env": {
         "browser": true,
         "es6": true,
-        node: true
+        "node": true
     },
     "extends": [
         "eslint:recommended",
@@ -16,7 +16,6 @@ module.exports = {
         "ecmaVersion": 2018,
         "sourceType": "module"
     },
-    "plugins": [],
     "rules": {
     }
 };
