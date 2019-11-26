@@ -243,7 +243,7 @@
     "pre-commit": "^1.2.2"
   },
   "scripts": {
-    "lint": "eslint src --ext .js --cache --fix"
+    "lint": "eslint promise --ext .js --cache --fix"
   },
   "pre-commit": [
     "lint"
