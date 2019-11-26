@@ -1,11 +1,11 @@
-let Promise = require('./promise');
+const Promise = require('./promise')
 
-let p = new Promise((resolve)=>{
-    resolve('aa');
-});
+const p = new Promise((resolve) => {
+    resolve('aaa')
+})
 
-p.then((data)=>{
-    console.log('success', data);
-},(err)=>{
-    console.log('fail1', err);
-});
+p.then((data) => {
+    console.log('success', data)
+}, (err) => {
+    console.log('fail1', err)
+})
